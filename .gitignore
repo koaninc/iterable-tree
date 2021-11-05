@@ -1,0 +1,5 @@
+dist/index.test.*
+dist/tsconfig.tsbuildinfo
+node_modules
+npm-debug.log
+*.swp
