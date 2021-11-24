@@ -2,13 +2,19 @@
 
 Implements an [iterable][mdn-iterable] tree with associated helpers.
 
+## Install with `npm`
+
+```ts
+$ npm i @koaninc/iterable-tree
+```
+
 ## Creating a tree
 
 A tree consists of `Node`s with a unique `id` field and an (optional) `parentId`
 reference.
 
 ```js
-const Tree = require('iterable-tree');
+const Tree = require('@koaninc/iterable-tree');
 
 const tree = Tree.from([
   { id: 'root' },
