@@ -43,4 +43,5 @@ export default class Tree<T extends Node> extends Map<NodeId, T> {
      */
     flat(): T[];
 }
+export declare const from: typeof Tree.from;
 export {};

@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.from = void 0;
 /**
  *  `Tree` provides access to tree-like data
  */
@@ -126,4 +127,5 @@ class Tree extends Map {
     }
 }
 exports.default = Tree;
+exports.from = Tree.from;
 //# sourceMappingURL=index.js.map

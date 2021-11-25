@@ -159,3 +159,8 @@ export default class Tree<T extends Node> extends Map<NodeId, T> {
     return result;
   }
 }
+
+/**
+ *  Alias of `Tree.from`, exported for CommonJS convenience
+ */
+export const from = Tree.from;
